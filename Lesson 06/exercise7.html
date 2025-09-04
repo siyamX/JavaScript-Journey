@@ -1,0 +1,22 @@
+<!--
+(Challenge) Continuing from exercise6, Instead of using if-statements in the previous exercise,
+try switching them into ternary operators (condition? A: B).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coin-Flip using ternary operators</title>
+  </head>
+  <body>
+    <script>
+      const randomNumber = Math.random();
+      const guess = "heads";
+
+      const result = randomNumber < 0.5 ? "heads" : "tails";
+      const print = guess === result ? "You win!" : "You lose!";
+
+      console.log(print);
+    </script>
+  </body>
+</html>
