@@ -1,0 +1,32 @@
+<!--
+Chat GPT:
+
+Create a simple program that checks if a shop is open or closed.
+Create a variable hour that stores the current hour (0–23).
+The shop is open between 9 and 20 (inclusive).
+
+If the shop is open, log:
+"Shop is open"
+If the shop is closed, log:
+"Shop is closed"
+
+Challenge: Try writing it using a ternary operator instead of if-else.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shop open time</title>
+  </head>
+  <body>
+    <script>
+      const currentHour = 10;
+
+      const status =
+        currentHour >= 9 && currentHour <= 20
+          ? "Shop is open"
+          : "Shop is closed";
+      console.log(status);
+    </script>
+  </body>
+</html>
